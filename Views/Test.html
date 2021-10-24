@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.checkbox1
+ { 
+	position: relative;
+	padding-left: 23px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 13px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:#C9156C;
+}
+.checkbox1Position input 
+{
+    position: absolute;
+	display:none;
+    cursor: pointer;
+}
+.checkmark1 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+	height: 16px;
+    width: 16px;
+	background-color:#ccc;
+	border-radius: 3px;
+}
+
+.checkbox1 input:checked ~ .checkmark1 {
+    background-color: #C9156C;
+}
+.checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox1 input:checked ~ .checkmark1:after 
+{
+    display: block;
+}
+.checkbox1 .checkmark1:after 
+{
+    left: 5px;
+    top: 2px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+</style>
+</head>
+<body>
+	<div class='checkbox1Position'>
+		<label class='checkbox1'>HOT SHOTS RED<input type='checkbox'><span class='checkmark1'></span></label></div>
+</body>
+</html>

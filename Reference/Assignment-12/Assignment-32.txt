@@ -1,0 +1,24 @@
+Assignment - 32
+
+- The desktop layout is available. Design the web page to be responsive to support both desktop and mobile layouts
+- Use HTML5 tags and not HTML4 tags (Ex: Section, Nav etc).
+- Page design should be center aligned
+- Should not use the table tags. Use only div tags
+- Use CSS properties for the images and do not use Image tags
+- Use Custom Fonts provided in the attachment
+- Exact or Matching Font colors have to be applied
+- Border and Box property(shadow) has to be included in necessary places
+- z-index property needs to be updated in necessary places
+- Word-wrap property has to applied in paragraph
+- Alignment property has be applied as per the image
+- Redundancy of css class property should be avoided. Use LESS or SASS.
+- Should not use the inline css property
+- Css Class name should be meaningful
+- Use CSS Sprites for check box
+- Apply hover for navigation
+- Design should be compatible in both Chrome and IE11
+
+
+
+Note: Minor alignment issues are acceptable. Minor differences in fonts sizes are acceptable. Design the pages on your own.
+Reach out to your seniors for guidance if needed.
